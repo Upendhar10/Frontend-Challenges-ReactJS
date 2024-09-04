@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 
 import Home from "./Projects/Home";
+import Calculator from "./Projects/Calculator";
 
 const router = createBrowserRouter([
   {
@@ -12,7 +13,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/calculator",
-    element: <h1>Calculator Page</h1>,
+    element: <Calculator />,
   },
 ]);
 
