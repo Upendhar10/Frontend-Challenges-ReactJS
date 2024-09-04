@@ -4,6 +4,7 @@ import "./App.css";
 
 import Home from "./Projects/Home";
 import Calculator from "./Projects/Calculator";
+import StarRating from "./Projects/StarRating";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/calculator",
     element: <Calculator />,
+  },
+  {
+    path: "/starrating",
+    element: <StarRating />,
   },
 ]);
 

@@ -19,3 +19,13 @@
     #f7fb5f
   );
 }
+
+/* Start rating */
+
+.On {
+  color: gold;
+}
+
+.Off {
+  color: black;
+}
