@@ -5,6 +5,7 @@ import "./App.css";
 import Home from "./Projects/Home";
 import Calculator from "./Projects/Calculator";
 import StarRating from "./Projects/StarRating";
+import Accordian from "./Projects/Accoridan";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/starrating",
     element: <StarRating />,
+  },
+  {
+    path: "/accordian",
+    element: <Accordian />,
   },
 ]);
 
